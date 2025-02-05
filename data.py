@@ -12,14 +12,75 @@ print(values[0])
 print(values[6])
  """
 
+
 """ x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
+print(z) 
+ """
+
+
+
+
+
+
+""" x = input("write something: ")
+
+count_word = x.split( )
+print(f"The total number of words is {len(count_word)}.") """
+
+
+
+
+
+
+""" x = input("Adj")
+y = input("Adj")
+z = input("Food")
+
+print("it was a")
+print(x)
+print("cold morning. I woke up to the")
+print(y)
+print("smell of")
 print(z) """
 
 
-x = input("write something")
-y = x.split
-for y in x:
-    print(y)
+""" day_of_week = input("what day is it? ")
+
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+
+
+
+""" x = "test"
+print(f"hello {x}") """
+
+
+
+
+
+""" 
+temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+number = input("Pick any number : ")
+
+
+
+
+
+
+
+
+
+
