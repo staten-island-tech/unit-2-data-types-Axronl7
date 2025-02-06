@@ -73,8 +73,41 @@ elif temp == 68:
 else:
     print('cold') """
 
-number = input("Pick any number : ")
-if number %2 == 0:
+
+
+""" number = int(input('Pick any number : '))
+if number % 2==0:
+    print ('this number is EVEN')
+else:
+    print ('This number is ODD') """
+
+
+""" 
+Price = float(input("Price:"))
+tip = input("how was the service(bad)(okay)(good)(great):")
+if tip == "bad":
+    print(Price) 
+if tip == "okay":
+    Price = round(Price * 1.15)
+    print(f"Pay: {Price}")
+if tip == "good":
+    Price = round(Price * 1.20)
+    print(f"Pay: {Price}")
+if tip == "great":
+    Price = round(Price * 1.25)
+    print(f"Pay: {Price}")  """
+
+
+Number = int(input("input a number:"))
+
+def FindNumber(Number):
+    Factors : []
+    for i in range()
+
+
+
+
+    
 
 
 
