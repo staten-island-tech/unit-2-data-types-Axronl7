@@ -74,6 +74,7 @@ else:
     print('cold') """
 
 number = input("Pick any number : ")
+if number %2 == 0:
 
 
 
