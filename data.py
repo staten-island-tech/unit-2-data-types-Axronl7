@@ -98,17 +98,27 @@ if tip == "great":
     print(f"Pay: {Price}")  """
 
 
-Number = int(input("input a number:"))
 
-def FindNumber(Number):
-    Factors : []
-    for i in range()
+
+number1 = int(input("input a number: "))
+def find_Factors(number1):
+    Factors = []
+    for i in range(1, number1 + 1):
+            if number1 % i == 0:
+                Factors.append(i)
+    return Factors
+
+Factors = find_Factors(number1)
+print(Factors)
+            
+
+       
+
 
 
 
 
     
-
 
 
 
