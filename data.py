@@ -100,6 +100,8 @@ if tip == "great":
 
 
 
+
+""" 
 number1 = int(input("input a number: "))
 def find_Factors(number1):
     Factors = []
@@ -109,7 +111,37 @@ def find_Factors(number1):
     return Factors
 
 Factors = find_Factors(number1)
-print(Factors)
+print(Factors) """
+
+
+
+
+
+number1 = int(input("Input a number: "))
+number2 = int(input("Input another number: "))
+
+def find_Factors(number):
+    factors = []
+    for i in range(1, number + 1):
+        if number % i == 0:
+            factors.append(i)
+    return factors
+
+factors1 = find_Factors(number1)
+factors2 = find_Factors(number2)
+
+if find_Factors
+
+
+
+
+
+
+
+
+
+
+
             
 
        
