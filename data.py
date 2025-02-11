@@ -114,8 +114,7 @@ Factors = find_Factors(number1)
 print(Factors) """
 
 
-
-
+""" 
 
 number1 = int(input("Input a number: "))
 number2 = int(input("Input another number: "))
@@ -130,12 +129,11 @@ def find_Factors(number):
 factors1 = find_Factors(number1)
 factors2 = find_Factors(number2)
 
-if find_Factors
+common_factors = set(factors1) & set(factors2)
 
+GCF = max(common_factors)
 
-
-
-
+print(f"The GCF of {number1} and {number2} is {GCF}.") """
 
 
 
